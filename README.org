@@ -3,19 +3,17 @@
 
 #+begin_quote
 Make it as simple as possiburu while looking aesthetically pleasing
-#+end_quote
 
-#+begin_quote
                                                              @ppold
 #+end_quote
 
 * Screenshots
 
 ** Light
-[[https://i.imgur.com/rxMhkNN.png][https://i.imgur.com/rxMhkNN.png]]
+ [[https://i.imgur.com/rxMhkNN.png][https://i.imgur.com/rxMhkNN.png]]
 ** Dark
-[[https://i.imgur.com/nmlAMr1.png][https://i.imgur.com/nmlAMr1.png]]
+ [[https://i.imgur.com/nmlAMr1.png][https://i.imgur.com/nmlAMr1.png]]
 
 * People involved:
-- [X] @CestDiego
-- [X] @ppold
+- @CestDiego
+- @ppold
