@@ -13,18 +13,12 @@ body {
     padding: 0 24px;
 }
 
-.org-src-container ::-moz-selection {
-    color: inherit;
-    background: #2b2b2b;
-}
-
-.org-src-container ::selection {
-    color: inherit;
-    background: #2b2b2b;
-}
-
 h1, h2, h3, h4, h5 ,h6 {
     font-weight: 800;
+}
+
+h1 {
+    font-size: 1.7em;
 }
 
 a {
@@ -33,102 +27,13 @@ a {
     color: inherit;
 }
 
-.back-to-top {
-    margin: 1em 0;
-    text-align: center;
-}
-
-.switch-lights {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: 0;
-    outline: 0;
-}
-
-.post a::after,
-.links a::after,
-.switch-lights::after,
-.back-to-top a::after {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    content: '';
-    -webkit-transition-property: background;
-    -webkit-transition-duration: 600ms;
-    -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-    transition-property: background;
-    transition-duration: 600ms;
-    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.site-nav {
-    margin: 0 0 2em;
-}
-
-.links {
-    list-style: none;
-}
-
-.links > li {
-    display: inline-block;
-    margin-right: 1em;
-}
-
-.post-list {
-    list-style: none;
-}
-
-.post-time {
-    margin: 0 1em 0 0;
-}
-
-.post {
-    margin: 4em 0 0;
-}
-
-.post > header {
-    margin: 2em 0;
-}
-
-.post img {
-    width: 100%;
-}
-
-.post-title {
-    margin-bottom: 0;
-}
-
-h1 {
-    font-size: 1.7em;
-}
-
-.post-date {
-    display: block;
-}
-
-h1, .post-date {
-    font-family: 'Whitney SSm A', 'Whitney SSm B';
-}
-
-.post-date {
-    font-size: 0.9em;
+p {
+    line-height: 1.8;
 }
 
 ul, ol {
     padding: 0;
     list-style-position: inside;
-}
-
-.not-found {
-    text-align: center;
-}
-
-p {
-    line-height: 1.8;
 }
 
 figcaption {
@@ -170,6 +75,98 @@ hr {
 hr:before {
     content: "***";
     letter-spacing: 1em;
+}
+
+.post a::after,
+.links a::after,
+.switch-lights::after,
+.back-to-top a::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    content: '';
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 600ms;
+    -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+    transition-property: background;
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.back-to-top {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.switch-lights {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: 0;
+    outline: 0;
+}
+
+.site-nav {
+    margin: 0 0 2em;
+}
+
+.links {
+    list-style: none;
+}
+
+.links > li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.post-list {
+    list-style: none;
+}
+
+.post-time {
+    margin: 0 1em 0 0;
+}
+
+.post {
+    margin: 4em 0 0;
+}
+
+.post > header {
+    margin: 2em 0;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-title {
+    margin-bottom: 0;
+}
+
+.post-date {
+    display: block;
+    font-size: 0.9em;
+}
+
+h1, .post-date {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
+}
+
+.not-found {
+    text-align: center;
+}
+
+.org-src-container ::-moz-selection {
+    color: inherit;
+    background: #2b2b2b;
+}
+
+.org-src-container ::selection {
+    color: inherit;
+    background: #2b2b2b;
 }
 
 .org-src-container pre {
