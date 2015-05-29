@@ -180,6 +180,13 @@ hr:before {
     padding: 1em;
 }
 
+@media screen {
+    .org-src-container pre {
+        max-height: 500px;
+        overflow-y: scroll;
+    }
+}
+
 .links {
     list-style: none;
 }
@@ -205,5 +212,11 @@ hr:before {
     }
     body {
         font-size: 16px;
+    }
+}
+
+@media print {
+    .site-nav {
+        display: none;
     }
 }

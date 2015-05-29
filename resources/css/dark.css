@@ -44,5 +44,5 @@ body {
 } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
  
 ::-webkit-scrollbar-corner {
-      background-color: black;
+      background-color: #3F3F3F;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
