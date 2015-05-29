@@ -3,6 +3,17 @@
 
 #+begin_quote
 Make it as simple as possiburu while looking aesthetically pleasing
-@ppold
 #+end_quote
 
+#+begin_quote
+                                                             @ppold
+#+end_quote
+
+* Screenshots
+
+[[https://i.imgur.com/rxMhkNN.png][test_image]]
+[[https://i.imgur.com/nmlAMr1.png][test_2]]
+
+* People involved:
+- [X] @CestDiego
+- [X] @ppold
