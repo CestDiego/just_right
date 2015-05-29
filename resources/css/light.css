@@ -28,8 +28,7 @@ body {
 } /* this targets the default scrollbar (compulsory) */
 
 ::-webkit-scrollbar-track {
-    /* background-color: #F2F2F2; */
-    background-color: rgba(240,240,240,1); 
+    background-color: #F2F2F2;
 } /* the new scrollbar will have a flat appearance with the set background color */
 
 ::-webkit-scrollbar-thumb {
