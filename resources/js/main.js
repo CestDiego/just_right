@@ -94,7 +94,7 @@ function scroll(from, to, duration) {
     }
 
     window.addEventListener("load", function () {
-        document.querySelector(".toggle-colors").addEventListener("click", function () {
+        document.querySelector(".switch-lights").addEventListener("click", function () {
             localStorage.darkTheme = +toggleTheme();
         });
 
