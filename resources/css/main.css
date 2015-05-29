@@ -229,7 +229,7 @@ hr:before {
 }
 
 @media print {
-    .site-nav {
+    nav, footer {
         display: none;
     }
 }
