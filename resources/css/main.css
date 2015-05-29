@@ -38,7 +38,7 @@ a {
     text-align: center;
 }
 
-.toggle-colors {
+.switch-lights {
     position: relative;
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ a {
 
 .post a::after,
 .links a::after,
-.toggle-colors::after,
+.switch-lights::after,
 .back-to-top a::after {
     position: absolute;
     top: 100%;

@@ -16,7 +16,7 @@ body {
 .about-me a::after,
 .post a::after,
 .links a::after,
-.toggle-colors::after,
+.switch-lights::after,
 .back-to-top a::after {
     background: #e3e3e3;
 }

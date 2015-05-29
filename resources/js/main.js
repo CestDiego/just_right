@@ -65,45 +65,25 @@ function scroll(from, to, duration) {
     requestAnimationFrame(setStartTime);
 }
 
-var toggleTheme = function () {
-    var isDefaultDisabled = lightTheme.disabled;
-    darkTheme.disabled = isDefaultDisabled;
-    lightTheme.disabled = !isDefaultDisabled;
-    return !isDefaultDisabled;
-};
+(function() {
+    var lightTheme = document.querySelector("#lightTheme");
+    var darkTheme = document.querySelector("#darkTheme");
 
-var lightTheme = document.querySelector("#lightTheme");
-var darkTheme = document.querySelector("#darkTheme");
+    var toggleTheme = function () {
+        var isDefaultDisabled = lightTheme.disabled;
+        darkTheme.disabled = isDefaultDisabled;
+        lightTheme.disabled = !isDefaultDisabled;
 
-if (localStorage.darkTheme === "1") {
-    toggleTheme();
-}
+        var switchLights = document.querySelector(".switch-lights");
+        switchLights.textContent = "lights " + (isDefaultDisabled ? "off" : "on");
 
-window.addEventListener("load", function () {
-    document.querySelector(".toggle-colors").addEventListener("click", function () {
-        localStorage.darkTheme = +toggleTheme();
-    });
+        return !isDefaultDisabled;
+    };
 
-    Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (el) {
-        el.addEventListener("click", function (event) {
-            if (!(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
-                  location.hostname == this.hostname)) {
-                return;
-            }
+    if (localStorage.darkTheme === "1") {
+        toggleTheme();
+    }
 
-            var to;
-            if (this.hash === "") {
-                to = 0;
-            } else {
-                to = document.querySelector(this.hash).scrollTop;
-            }
-            scroll(document.documentElement.scrollTop || document.body.scrollTop, to, 600);
-            event.preventDefault();
-        });
-    });
-});
-
-(function () {
     var viewportHeight = document.documentElement.clientHeight,
         documentHeight = document.body.clientHeight,
         backToTop;
@@ -112,4 +92,28 @@ window.addEventListener("load", function () {
         backToTop = document.querySelector(".back-to-top");
         backToTop.style.display = "none";
     }
+
+    window.addEventListener("load", function () {
+        document.querySelector(".toggle-colors").addEventListener("click", function () {
+            localStorage.darkTheme = +toggleTheme();
+        });
+
+        Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (el) {
+            el.addEventListener("click", function (event) {
+                if (!(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
+                      location.hostname == this.hostname)) {
+                    return;
+                }
+
+                var to;
+                if (this.hash === "") {
+                    to = 0;
+                } else {
+                    to = document.querySelector(this.hash).scrollTop;
+                }
+                scroll(document.documentElement.scrollTop || document.body.scrollTop, to, 600);
+                event.preventDefault();
+            });
+        });
+    });
 }());
