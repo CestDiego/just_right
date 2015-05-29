@@ -14,7 +14,7 @@ body {
 }
 
 .about-me a::after,
-.post-content a::after,
+.post a::after,
 .links a::after,
 .toggle-colors::after,
 .back-to-top a::after {
