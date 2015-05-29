@@ -103,11 +103,13 @@ window.addEventListener("load", function () {
     });
 });
 
-(function (){
-    var viewportHeight = document.documentElement.clientHeight
-    var documentHeight = document.body.clientHeight
-    if (documentHeight < viewportHeight){
-        backToTop = document.getElementsByClassName("back-to-top")[0]
-        backToTop.style.display = "none"
+(function () {
+    var viewportHeight = document.documentElement.clientHeight,
+        documentHeight = document.body.clientHeight,
+        backToTop;
+
+    if (documentHeight < viewportHeight) {
+        backToTop = document.querySelector(".back-to-top");
+        backToTop.style.display = "none";
     }
-}())
+}());
