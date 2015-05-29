@@ -1,0 +1,10 @@
+<nav class="site-nav">{{! nav }}
+    <ul class="links">
+        <li><a href="/">main</a></li>
+        {{#nav-categories}}
+            <li><a href="{{category-uri}}">{{category-name}}</a></li>
+        {{/nav-categories}}
+        <li><a href="/rss.xml">rss</a></li>
+        <li><button class="toggle-colors">toggle colors</button></li>
+    </ul>
+</nav>
