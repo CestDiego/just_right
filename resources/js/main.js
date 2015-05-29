@@ -102,3 +102,12 @@ window.addEventListener("load", function () {
         });
     });
 });
+
+(function (){
+    var viewportHeight = document.documentElement.clientHeight
+    var documentHeight = document.body.clientHeight
+    if (documentHeight < viewportHeight){
+        backToTop = document.getElementsByClassName("back-to-top")[0]
+        backToTop.style.display = "none"
+    }
+}())
