@@ -11,8 +11,8 @@ Make it as simple as possiburu while looking aesthetically pleasing
 
 * Screenshots
 
-[[https://i.imgur.com/rxMhkNN.png][test_image]]
-[[https://i.imgur.com/nmlAMr1.png][test_2]]
+[[https://i.imgur.com/rxMhkNN.png][https://i.imgur.com/rxMhkNN.png]]
+[[https://i.imgur.com/nmlAMr1.png][https://i.imgur.com/nmlAMr1.png]]
 
 * People involved:
 - [X] @CestDiego
