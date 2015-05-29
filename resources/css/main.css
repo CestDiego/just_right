@@ -141,23 +141,28 @@ figcaption {
 }
 
 blockquote {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-blockquote:before, blockquote:after {
-    font-size: 1.2em;
+    font-style: italic;
 }
 
 blockquote:before {
-    content: open-quote;
-}
-
-blockquote:after {
-    content: close-quote;
+  display: block;
+  height: 0;
+  content: "“";
+  margin-left: -.75em;
+  font: italic 400%/1 "Source Code Pro";
+  color: #999;
 }
 
 blockquote p {
     display: inline;
+    line-height: 0.3;
+}
+
+blockquote .author {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  color: #666;
 }
 
 hr {
