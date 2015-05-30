@@ -36,7 +36,7 @@ body {
 } /* this targets the default scrollbar (compulsory) */
 
 ::-webkit-scrollbar-track {
-    background-color: #FDFDFD;
+    background-color: inherit;
 } /* the new scrollbar will have a flat appearance with the set background color */
 
 ::-webkit-scrollbar-thumb {
@@ -51,7 +51,7 @@ body {
 } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
 
 ::-webkit-scrollbar-corner {
-    background-color: #FDFDFD;
+    background-color: inherit;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 
 
