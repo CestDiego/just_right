@@ -2,15 +2,22 @@ body {
     font-family: 'Sentinel SSm A', 'Sentinel SSm B';
     font-weight: 300;
     font-size: 20px;
+    max-width: 672px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+body, .src,
+.post a::after,
+.links a::after,
+.switch-lights::after,
+.back-to-top a::after {
     -webkit-transition-property: background, color;
     -webkit-transition-duration: 600ms;
     -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     transition-property: background, color;
     transition-duration: 600ms;
     transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-    max-width: 672px;
-    margin: 0 auto;
-    padding: 0 24px;
 }
 
 h1, h2, h3, h4, h5 ,h6 {
@@ -87,12 +94,6 @@ hr:before {
     width: 100%;
     height: 1px;
     content: '';
-    -webkit-transition-property: background;
-    -webkit-transition-duration: 600ms;
-    -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
-    transition-property: background;
-    transition-duration: 600ms;
-    transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .back-to-top {
