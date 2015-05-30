@@ -52,7 +52,7 @@ body {
 
 .org-src-container pre {
     color: #DCDCCC;
-    background-color: #3F3F3F;
+    background-color: #272822;
 }
 .org-builtin {
     /* font-lock-builtin-face */
@@ -73,11 +73,11 @@ body {
 }
 .org-comment {
     /* font-lock-comment-face */
-    color: #7F9F7F;
+    color: #75715E;
 }
 .org-comment-delimiter {
     /* font-lock-comment-delimiter-face */
-    color: #5F7F5F;
+    color: #75715E;
 }
 .org-constant {
     /* font-lock-constant-face */
