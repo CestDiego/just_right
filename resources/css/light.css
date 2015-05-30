@@ -45,3 +45,156 @@ body {
 ::-webkit-scrollbar-corner {
     background-color: #F2F2F2;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+/* color theme generated from htmlize (uses leuven faces) */
+
+.org-src-container pre {
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.org-builtin {
+    /* font-lock-builtin-face */
+    color: #006FE0;
+}
+.org-c-annotation {
+    /* c-annotation-face */
+    color: #D0372D;
+}
+.org-clojure-interop-method {
+    /* clojure-interop-method-face */
+    color: #808080;
+}
+.org-clojure-keyword {
+    /* clojure-keyword-face */
+    color: #D0372D;
+}
+.org-comment {
+    /* font-lock-comment-face */
+    color: #8D8D84;
+    font-style: italic;
+}
+.org-comment-delimiter {
+    /* font-lock-comment-delimiter-face */
+    color: #8D8D84;
+}
+.org-constant {
+    /* font-lock-constant-face */
+    color: #D0372D;
+}
+.org-css-property {
+    /* css-property */
+    color: #00AA00;
+}
+.org-css-selector {
+    /* css-selector */
+    color: #0000ff;
+    font-weight: bold;
+}
+.org-doc {
+    /* font-lock-doc-face */
+    color: #036A07;
+}
+.org-function-name {
+    /* font-lock-function-name-face */
+    color: #006699;
+}
+.org-haskell-constructor {
+    /* haskell-constructor-face */
+    color: #6434A3;
+}
+.org-haskell-definition {
+    /* haskell-definition-face */
+    color: #006699;
+}
+.org-haskell-keyword {
+    /* haskell-keyword-face */
+    color: #0000FF;
+}
+.org-haskell-operator {
+    /* haskell-operator-face */
+    color: #BA36A5;
+}
+.org-highlight-numbers-number {
+    /* highlight-numbers-number */
+    color: #D0372D;
+}
+.org-julia-macro {
+    /* julia-macro-face */
+    color: #808080;
+}
+.org-keyword {
+    /* font-lock-keyword-face */
+    color: #0000FF;
+}
+.org-negation-char {
+}
+.org-org-default {
+    /* org-default */
+    color: #333333;
+    background-color: #FFFFFF;
+}
+.org-preprocessor {
+    /* font-lock-preprocessor-face */
+    color: #808080;
+}
+.org-rainbow-delimiters-depth-1 {
+    /* rainbow-delimiters-depth-1-face */
+    color: #707183;
+}
+.org-rainbow-delimiters-depth-2 {
+    /* rainbow-delimiters-depth-2-face */
+    color: #7388D6;
+}
+.org-rainbow-delimiters-depth-3 {
+    /* rainbow-delimiters-depth-3-face */
+    color: #909183;
+}
+.org-rainbow-delimiters-depth-4 {
+    /* rainbow-delimiters-depth-4-face */
+    color: #709870;
+}
+.org-rainbow-delimiters-depth-5 {
+    /* rainbow-delimiters-depth-5-face */
+    color: #907373;
+}
+.org-rainbow-delimiters-unmatched {
+    /* rainbow-delimiters-unmatched-face */
+    background-color: #FFDCDC;
+    text-decoration: underline;
+}
+.org-string {
+    /* font-lock-string-face */
+    color: #008000;
+}
+.org-tuareg-font-lock-constructor {
+    /* tuareg-font-lock-constructor-face */
+    color: #333333;
+    background-color: #FFFFFF;
+}
+.org-tuareg-font-lock-governing {
+    /* tuareg-font-lock-governing-face */
+    color: #000000;
+    font-weight: bold;
+}
+.org-tuareg-font-lock-module {
+    /* tuareg-font-lock-module-face */
+    color: #6434A3;
+}
+.org-tuareg-font-lock-operator {
+    /* tuareg-font-lock-operator-face */
+    color: #a52a2a;
+}
+.org-type {
+    /* font-lock-type-face */
+    color: #6434A3;
+}
+.org-underline {
+    /* underline */
+    text-decoration: underline;
+}
+.org-variable-name {
+    /* font-lock-variable-name-face */
+    color: #BA36A5;
+}

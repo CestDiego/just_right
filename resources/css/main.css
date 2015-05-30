@@ -170,8 +170,6 @@ h1, .post-date {
 }
 
 .org-src-container pre {
-    background: #3F3F3F;
-    color: #DCDCCC;
     font-family: "Source Code Pro";
     font-weight: 400;
     font-size: 0.8em;
