@@ -162,12 +162,10 @@ h1, .post-date {
 
 .org-src-container ::-moz-selection {
     color: inherit;
-    background: #2b2b2b;
 }
 
 .org-src-container ::selection {
     color: inherit;
-    background: #2b2b2b;
 }
 
 .org-src-container pre {

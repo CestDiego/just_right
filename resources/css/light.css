@@ -13,6 +13,14 @@ body {
     color: #e3e3e3;
 }
 
+.org-src-container ::-moz-selection {
+    background: #8ed3ff;
+}
+
+.org-src-container ::selection {
+    background: #8ed3ff;
+}
+
 .post a::after,
 .links a::after,
 .switch-lights::after,

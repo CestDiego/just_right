@@ -13,6 +13,14 @@ body {
     color: #373737;
 }
 
+.org-src-container ::-moz-selection {
+    background: #2b2b2b;
+}
+
+.org-src-container ::selection {
+    background: #2b2b2b;
+}
+
 .about-me a::after,
 .post a::after,
 .links a::after,
