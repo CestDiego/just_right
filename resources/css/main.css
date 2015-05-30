@@ -164,7 +164,7 @@ hr:before {
     font-size: 0.9em;
 }
 
-h1, .post-date {
+h1, .post-date, .org-org-document-title {
     font-family: 'Whitney SSm A', 'Whitney SSm B';
 }
 
