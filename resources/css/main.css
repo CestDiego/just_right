@@ -107,6 +107,10 @@ hr:before {
     content: '';
 }
 
+.org-org-link a::after {
+    display: none;
+}
+
 .back-to-top {
     margin: 1em 0;
     text-align: center;
