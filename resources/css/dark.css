@@ -251,6 +251,7 @@ body {
 .org-org-level-1 {
     /* org-level-1 */
     color: #DFAF8F;
+    font-size: 130%;
 }
 .org-org-level-2 {
     /* org-level-2 */
@@ -325,6 +326,7 @@ body {
 .org-org-document-title {
     /* org-document-title */
     color: #afeeee;
+    font-size: 180%;
     font-weight: bold;
 }
 .ATTRLIST {
