@@ -81,7 +81,6 @@ body {
 .org-comment {
     /* font-lock-comment-face */
     color: #8D8D84;
-    font-style: italic;
 }
 .org-comment-delimiter {
     /* font-lock-comment-delimiter-face */
