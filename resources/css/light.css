@@ -219,13 +219,11 @@ body {
     /* org-block-begin-line */
     color: #555555;
     background-color: #E2E1D5;
-    text-decoration: underline;
 }
 .org-org-block-end-line {
     /* org-block-end-line */
     color: #555555;
     background-color: #E2E1D5;
-    text-decoration: overline;
 }
 .org-org-checkbox {
     /* org-checkbox */
