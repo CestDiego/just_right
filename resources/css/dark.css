@@ -328,6 +328,10 @@ body {
     font-size: 180%;
     font-weight: bold;
 }
+.org-org-tag {
+    /* org-tag */
+    font-weight: bold;
+}
 .ATTRLIST {
     /* (:foreground "#272822") */
     color: #373832;

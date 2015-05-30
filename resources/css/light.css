@@ -264,7 +264,6 @@ body {
     color: #123555;
     background-color: #E5F4FB;
     font-weight: bold;
-    text-decoration: overline;
 }
 .org-org-level-3 {
     /* org-level-3 */
@@ -359,4 +358,15 @@ body {
 .ATTRLIST {
     /* (:foreground "#3F3F3F") */
     color: #F2F2F2;
+}
+.org-org-tag {
+    /* org-tag */
+    color: #9A9FA4;
+    background-color: #ffffff;
+    font-style: italic;
+}
+.org-org-done, .org-org-todo {
+    padding: 0px 3px;
+    border-left: solid 1px;
+    border-right: solid 1px;
 }
