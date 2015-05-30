@@ -186,12 +186,12 @@ h1, .post-date {
     }
 }
 
-@media (max-width: 720px) {
-    body {
-        font-size: 18px;
-        max-width: 492px;
-    }
-}
+/* @media (max-width: 720px) { */
+/*     body { */
+/*         font-size: 18px; */
+/*         max-width: 492px; */
+/*     } */
+/* } */
 
 @media (max-width: 540px) {
     body {
