@@ -116,4 +116,10 @@ function scroll(from, to, duration) {
             });
         });
     });
+
+    document.addEventListener('keydown', function(event) {
+        if(event.keyCode == 222) {
+            document.querySelector(".switch-lights").click();
+        }
+    });
 }());
