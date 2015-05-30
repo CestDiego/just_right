@@ -199,7 +199,6 @@ body {
 }
 .org-underline {
     /* underline */
-    text-decoration: underline;
 }
 .org-variable-name {
     /* font-lock-variable-name-face */
@@ -238,7 +237,6 @@ body {
 .org-org-date {
     /* org-date */
     color: #00459E;
-    text-decoration: underline;
 }
 .org-org-done {
     /* org-done */
@@ -249,7 +247,6 @@ body {
 .org-org-footnote {
     /* org-footnote */
     color: #008ED1;
-    text-decoration: underline;
 }
 .org-org-level-1 {
     /* org-level-1 */
@@ -302,7 +299,6 @@ body {
 .org-org-link {
     /* org-link */
     color: #006DAF;
-    text-decoration: underline;
 }
 .org-org-list-dt {
     /* org-list-dt */
@@ -335,10 +331,6 @@ body {
     /* org-verbatim */
     color: #0066CC;
     background-color: #F7FDFF;
-}
-.org-underline {
-    /* underline */
-    text-decoration: underline;
 }
 .org-org-document-info {
     /* org-document-info */
