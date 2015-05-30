@@ -195,6 +195,13 @@ code {
     padding: 1em;
 }
 
+.org-src-container {
+    position: relative;
+    left: -65px;
+    margin-right: -130px;
+}
+
+
 @media screen {
     .org-src-container pre {
         max-height: 500px;
