@@ -105,6 +105,7 @@ hr:before {
     position: relative;
     margin: 0;
     padding: 0;
+    padding-right: 2px;
     border: 0;
     background: 0;
     outline: 0;
