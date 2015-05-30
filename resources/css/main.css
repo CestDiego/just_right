@@ -10,9 +10,17 @@ body {
     padding: 0 24px;
 }
 
-body, .src,
+body, .src, 
 .post a::after,
 .links a::after,
+.ATTRLIST,
+.org-org-level-1,
+.org-org-level-2,
+.org-org-level-3,
+.org-org-level-4,
+.org-org-level-5,
+.org-org-level-6,
+.org-org-verbatim,
 .switch-lights::after,
 .back-to-top a::after {
     -webkit-transition-property: background, color;
