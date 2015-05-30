@@ -205,3 +205,161 @@ body {
     /* font-lock-variable-name-face */
     color: #BA36A5;
 }
+.org-bold {
+    /* bold */
+    color: #000000;
+    font-weight: bold;
+}
+.org-italic {
+    /* italic */
+    color: #1A1A1A;
+    font-style: italic;
+}
+.org-org-block-begin-line {
+    /* org-block-begin-line */
+    color: #555555;
+    background-color: #E2E1D5;
+    text-decoration: underline;
+}
+.org-org-block-end-line {
+    /* org-block-end-line */
+    color: #555555;
+    background-color: #E2E1D5;
+    text-decoration: overline;
+}
+.org-org-checkbox {
+    /* org-checkbox */
+    color: #434343;
+    background-color: #A3A3A3;
+    font-weight: bold;
+}
+.org-org-code {
+    /* org-code */
+    color: #006400;
+    background-color: #FDFFF7;
+}
+.org-org-date {
+    /* org-date */
+    color: #00459E;
+    text-decoration: underline;
+}
+.org-org-done {
+    /* org-done */
+    color: #BBBBBB;
+    background-color: #F0F0F0;
+    font-weight: bold;
+}
+.org-org-footnote {
+    /* org-footnote */
+    color: #008ED1;
+    text-decoration: underline;
+}
+.org-org-level-1 {
+    /* org-level-1 */
+    color: #3C3C3C;
+    background-color: #F0F0F0;
+    font-size: 130%;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.org-org-level-2 {
+    /* org-level-2 */
+    color: #123555;
+    background-color: #E5F4FB;
+    font-weight: bold;
+    text-decoration: overline;
+}
+.org-org-level-3 {
+    /* org-level-3 */
+    color: #005522;
+    background-color: #EFFFEF;
+    font-weight: bold;
+}
+.org-org-level-4 {
+    /* org-level-4 */
+    color: #EA6300;
+    font-weight: bold;
+}
+.org-org-level-5 {
+    /* org-level-5 */
+    color: #E3258D;
+    font-weight: bold;
+}
+.org-org-level-6 {
+    /* org-level-6 */
+    color: #0077CC;
+    font-weight: bold;
+    font-style: italic;
+}
+.org-org-level-7 {
+    /* org-level-7 */
+    color: #2EAE2C;
+    font-weight: bold;
+    font-style: italic;
+}
+.org-org-level-8 {
+    /* org-level-8 */
+    color: #FD8008;
+    font-weight: bold;
+    font-style: italic;
+}
+.org-org-link {
+    /* org-link */
+    color: #006DAF;
+    text-decoration: underline;
+}
+.org-org-list-dt {
+    /* org-list-dt */
+    color: #335EA8;
+    font-weight: bold;
+}
+.org-org-meta-line {
+    /* org-meta-line */
+    color: #008ED1;
+    background-color: #EAEAFF;
+}
+.org-org-special-keyword {
+    /* org-special-keyword */
+    color: #00BB00;
+    background-color: #EAFFEA;
+    font-weight: bold;
+}
+.org-org-table {
+    /* org-table */
+    color: #006400;
+    background-color: #EAFFEA;
+}
+.org-org-todo {
+    /* org-todo */
+    color: #D8ABA7;
+    background-color: #FFE6E4;
+    font-weight: bold;
+}
+.org-org-verbatim {
+    /* org-verbatim */
+    color: #0066CC;
+    background-color: #F7FDFF;
+}
+.org-underline {
+    /* underline */
+    text-decoration: underline;
+}
+.org-org-document-info {
+    /* org-document-info */
+    color: #484848;
+}
+.org-org-document-info-keyword {
+    /* org-document-info-keyword */
+    color: #008ED1;
+    background-color: #EAEAFF;
+}
+.org-org-document-title {
+    /* org-document-title */
+    color: #000000;
+    font-size: 180%;
+    font-weight: bold;
+}
+.ATTRLIST {
+    /* (:foreground "#3F3F3F") */
+    color: #3F3F3F;
+}
