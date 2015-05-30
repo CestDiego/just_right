@@ -224,6 +224,10 @@ code {
         left: 0px;
         margin-right: 0px;
     }
+
+    ul, ol {
+        list-style-position: inside;
+    }
 }
 
 @media print {
