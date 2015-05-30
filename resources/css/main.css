@@ -2,6 +2,9 @@ body {
     font-family: 'Sentinel SSm A', 'Sentinel SSm B';
     font-weight: 300;
     font-size: 20px;
+}
+
+#wrapper {
     max-width: 672px;
     margin: 0 auto;
     padding: 0 24px;
