@@ -164,6 +164,10 @@ h1, .post-date {
     text-align: center;
 }
 
+code {
+    font-family: "Source Code Pro";
+}
+
 .org-src-container ::-moz-selection {
     color: inherit;
 }
