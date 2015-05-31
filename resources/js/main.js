@@ -105,13 +105,15 @@ function scroll(from, to, duration) {
                     return;
                 }
 
+                var from = document.documentElement.scrollTop || document.body.scrollTop;
+
                 var to;
                 if (this.hash === "") {
                     to = 0;
                 } else {
-                    to = document.querySelector(this.hash).scrollTop;
+                    to = from + document.getElementById(this.hash.substring(1)).getBoundingClientRect().top;
                 }
-                scroll(document.documentElement.scrollTop || document.body.scrollTop, to, 600);
+                scroll(from, to, 600);
                 event.preventDefault();
             });
         });
