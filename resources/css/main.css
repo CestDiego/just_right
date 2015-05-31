@@ -2,12 +2,13 @@ body {
     font-family: 'Sentinel SSm A', 'Sentinel SSm B';
     font-weight: 300;
     font-size: 20px;
+    letter-spacing: -0.2px;
 }
 
 #wrapper {
-    max-width: 672px;
+    max-width: 705px;
     margin: 0 auto;
-    padding: 0 24px;
+    padding: 0 20px;
 }
 
 body,
@@ -234,15 +235,16 @@ code {
 
 .org-src-container pre {
     font-family: "Source Code Pro";
+    letter-spacing: 0;
     font-weight: 400;
     font-size: 0.7em;
     padding: 1em;
 }
 
 .org-src-container {
-    position: relative;
-    left: -17px;
-    margin-right: -34px;
+    /* position: relative; */
+    /* left: -17px; */
+    /* margin-right: -34px; */
     line-height: 1em;
 }
 
@@ -251,6 +253,13 @@ code {
     .org-src-container pre {
         max-height: 500px;
         overflow-y: scroll;
+    }
+}
+
+
+@media (max-width: 800px) {
+    ul, ol {
+        list-style-position: inside;
     }
 }
 
@@ -274,10 +283,6 @@ code {
 
     .org-src-container pre {
         max-height: 330px;
-    }
-
-    ul, ol {
-        list-style-position: inside;
     }
 }
 
