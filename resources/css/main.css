@@ -76,10 +76,10 @@ body,
 .ATTRLIST,
 .org-org-tag {
     -webkit-transition-property: background, color;
-    -webkit-transition-duration: 600ms;
+    -webkit-transition-duration: 1300ms;
     -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
     transition-property: background, color;
-    transition-duration: 600ms;
+    transition-duration: 1300ms;
     transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
