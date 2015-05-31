@@ -106,6 +106,14 @@ ul, ol {
 }
 
 figcaption {
+figure {
+    margin: 0;
+}
+
+sub, sup {
+    font-size: 0.66em;
+}
+
     font-size: 1em;
     text-align: center;
 }
@@ -164,6 +172,28 @@ hr:before {
 .org-underline,
 .org-org-footnote {
     border-bottom: 1px solid;
+}
+
+.footdef > sup {
+    display: table-cell;
+    position: static;
+    font-size: 1em;
+}
+
+.footdef > p {
+    display: table-cell;
+}
+
+.footnum {
+    margin-right: 0.5em;
+}
+
+.footnotes {
+    display: none;
+}
+
+#footnotes {
+    margin: 2em 0;
 }
 
 .back-to-top {
