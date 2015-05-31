@@ -242,9 +242,6 @@ code {
 }
 
 .org-src-container {
-    /* position: relative; */
-    /* left: -17px; */
-    /* margin-right: -34px; */
     line-height: 1em;
 }
 
@@ -253,6 +250,7 @@ code {
     .org-src-container pre {
         max-height: 500px;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
     }
 }
 
@@ -262,13 +260,6 @@ code {
         list-style-position: inside;
     }
 }
-
-/* @media (max-width: 720px) { */
-/*     body { */
-/*         font-size: 18px; */
-/*         max-width: 492px; */
-/*     } */
-/* } */
 
 @media (max-width: 540px) {
     body {
