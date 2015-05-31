@@ -97,22 +97,6 @@ hr:before {
     letter-spacing: 1em;
 }
 
-.post a,
-.links a,
-.switch-lights,
-.back-to-top a,
-.org-org-date,
-.org-underline,
-.org-org-footnote
- {
-    border-bottom: solid 1px;
-}
-
-.back-to-top {
-    margin: 1em 0;
-    text-align: center;
-}
-
 .switch-lights {
     position: relative;
     margin: 0;
@@ -121,6 +105,21 @@ hr:before {
     border: 0;
     background: 0;
     outline: 0;
+}
+
+.post a,
+.links a,
+.switch-lights,
+.back-to-top a,
+.org-org-date,
+.org-underline,
+.org-org-footnote {
+    border-bottom: 1px solid;
+}
+
+.back-to-top {
+    margin: 1em 0;
+    text-align: center;
 }
 
 .site-nav {
@@ -196,7 +195,7 @@ code {
     position: relative;
     left: -17px;
     margin-right: -34px;
-    line-height: 1.1em;
+    line-height: 1em;
 }
 
 
