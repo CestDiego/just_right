@@ -83,12 +83,13 @@ body,
     transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-h1, h2, h3, h4, h5 ,h6 {
-    font-weight: 800;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Whitney SSm A', 'Whitney SSm B';
 }
 
 h1 {
     font-size: 1.7em;
+    font-weight: 800;
 }
 
 a {
@@ -98,14 +99,13 @@ a {
 }
 
 p {
-    line-height: 1.8;
+    line-height: 1.5;
 }
 
 ul, ol {
     padding: 0;
 }
 
-figcaption {
 figure {
     margin: 0;
 }
@@ -114,6 +114,7 @@ sub, sup {
     font-size: 0.66em;
 }
 
+figcaption {
     font-size: 1em;
     text-align: center;
 }
@@ -243,7 +244,11 @@ hr:before {
     font-size: 0.9em;
 }
 
-h1, .post-date, .org-org-document-title {
+.site-nav {
+    font-weight: 700;
+}
+
+.post-date, .org-org-document-title, .site-nav {
     font-family: 'Whitney SSm A', 'Whitney SSm B';
 }
 
