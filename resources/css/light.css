@@ -1,6 +1,5 @@
 body {
     background-color: #FCFCFC;
-    /* background: #FDFDFD; */
     color: #373737;
 }
 
@@ -60,7 +59,6 @@ body {
 
 .org-src-container pre {
     color: #333333;
-    /* background-color: #FBFBFB; */
     background-color: #FFF;
 }
 

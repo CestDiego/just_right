@@ -286,6 +286,7 @@ body {
 }
 .org-org-list-dt {
     /* org-list-dt */
+    color: #DCDCCC;
     font-weight: bold;
 }
 .org-org-meta-line {
@@ -325,6 +326,7 @@ body {
 }
 .org-org-tag {
     /* org-tag */
+    color: #DCDCCC;
     font-weight: bold;
 }
 .ATTRLIST {
