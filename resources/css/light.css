@@ -214,6 +214,9 @@ body {
     color: #1A1A1A;
     font-style: italic;
 }
+.org-strike-through {
+    text-decoration: line-through;
+}
 .org-org-block-begin-line {
     /* org-block-begin-line */
     color: #555555;
