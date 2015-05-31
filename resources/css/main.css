@@ -224,6 +224,10 @@ code {
         margin-right: 0px;
     }
 
+    .org-src-container pre {
+        max-height: 330px;
+    }
+
     ul, ol {
         list-style-position: inside;
     }
