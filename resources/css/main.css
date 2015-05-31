@@ -10,11 +10,8 @@ body {
     padding: 0 24px;
 }
 
-body, .src, 
-.post a::after,
-.links a::after,
-.switch-lights::after,
-.back-to-top a::after,
+body,
+.src,
 .org-builtin,
 .org-c-annotation,
 .org-clojure-interop-method,
@@ -244,8 +241,8 @@ code {
 
 .org-src-container {
     position: relative;
-    left: -16px;
-    margin-right: -32px;
+    left: -17px;
+    margin-right: -34px;
     line-height: 1em;
 }
 
