@@ -83,7 +83,7 @@ body,
     transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, table {
     font-family: 'Whitney SSm A', 'Whitney SSm B';
 }
 
@@ -117,6 +117,20 @@ sub, sup {
 figcaption {
     font-size: 1em;
     text-align: center;
+}
+
+table {
+    width: 100%;
+    font-size: 0.7em;
+    font-weight: 300;
+}
+
+thead tr {
+  border-bottom: 1px solid;
+}
+
+th, td {
+  padding: 0.3em 0px;
 }
 
 blockquote {
