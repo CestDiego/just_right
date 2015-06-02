@@ -14,11 +14,11 @@ body {
 }
 
 tbody tr:nth-child(odd) {
-    background-color: #F9F9F9;
+    background: #F9F9F9;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #FFF;
+    background: #FFF;
 }
 
 .org-src-container ::-moz-selection {

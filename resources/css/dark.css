@@ -14,16 +14,16 @@ body {
 }
 
 thead tr{
-    background-color: #181914;
+    background: #181914;
     border-color: #525256; 
 }
 
 tbody tr:nth-child(odd) {
-    background-color: inherit;
+    background: inherit;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #1f201b;
+    background: #1f201b;
 }
 
 .org-src-container ::-moz-selection {
