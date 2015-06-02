@@ -125,6 +125,10 @@ table {
     font-weight: 300;
 }
 
+th {
+    text-align: left;
+}
+
 thead tr {
   border-bottom: 1px solid;
 }
@@ -177,6 +181,10 @@ hr:before {
     border: 0;
     background: 0;
     outline: 0;
+}
+
+.right {
+    text-align: right;
 }
 
 .post a,
