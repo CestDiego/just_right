@@ -13,13 +13,12 @@ body {
     color: #373737;
 }
 
-thead tr{
-    background: #181914;
-    border-color: #525256; 
+thead tr {
+    border-color: #d3d4d2;
 }
 
 tbody tr:nth-child(odd) {
-    background: inherit;
+    background: #181914;
 }
 
 tbody tr:nth-child(even) {

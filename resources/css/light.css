@@ -13,6 +13,10 @@ body {
     color: #e3e3e3;
 }
 
+thead tr {
+    border-color: #373737;
+}
+
 tbody tr:nth-child(odd) {
     background: #F9F9F9;
 }

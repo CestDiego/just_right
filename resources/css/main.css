@@ -13,6 +13,7 @@ body {
 
 body,
 .src,
+table tr,
 .org-builtin,
 .org-c-annotation,
 .org-clojure-interop-method,
@@ -83,6 +84,11 @@ body,
     transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
+table tr {
+    -webkit-transition-property: border, background-color;
+    transition-property: border, background-color;
+}
+
 h1, h2, h3, h4, h5, h6, table {
     font-family: 'Whitney SSm A', 'Whitney SSm B';
 }
@@ -122,7 +128,6 @@ figcaption {
 table {
     width: 100%;
     font-size: 0.7em;
-    font-weight: 300;
 }
 
 th {
