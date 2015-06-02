@@ -13,12 +13,17 @@ body {
     color: #373737;
 }
 
+thead tr{
+    background-color: #181914;
+    border-color: #525256; 
+}
+
 tbody tr:nth-child(odd) {
-    background-color: #F9F9F9;
+    background-color: inherit;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #FFF;
+    background-color: #1f201b;
 }
 
 .org-src-container ::-moz-selection {
