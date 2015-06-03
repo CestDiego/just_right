@@ -96,6 +96,9 @@ function scroll(from, to, duration) {
     window.addEventListener("load", function () {
         document.querySelector(".switch-lights").addEventListener("click", function () {
             localStorage.darkTheme = +toggleTheme();
+            setTimeout(function(){
+                if (typeof reload_disqus == 'function') { reload_disqus(); }
+            }, 400);
         });
 
         Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (el) {
