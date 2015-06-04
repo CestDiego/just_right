@@ -1,8 +1,8 @@
 body {
-    font-family: 'Sentinel SSm A', 'Sentinel SSm B';
-    font-weight: 300;
-    font-size: 20px;
-    letter-spacing: -0.2px;
+    font-family: 'Lora', 'serif';
+    font-weight: 500;
+    font-size: 21px;
+    /* letter-spacing: -0.2px; */
 }
 
 #wrapper {
@@ -90,7 +90,7 @@ table tr {
 }
 
 h1, h2, h3, h4, h5, h6, table {
-    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-family: 'Fira Sans';
 }
 
 h1 {
@@ -276,7 +276,7 @@ hr:before {
 }
 
 .post-date, .org-org-document-title, .site-nav {
-    font-family: 'Whitney SSm A', 'Whitney SSm B';
+    font-family: 'Fira Sans';
 }
 
 .not-found {
