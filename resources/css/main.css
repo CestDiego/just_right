@@ -287,6 +287,14 @@ code {
     font-family: "Source Code Pro";
 }
 
+.done, .todo {
+    font-weight: bold;
+    padding: 0px 3px;
+    font-size: 0.7em;
+    border: solid 1px;
+    vertical-align: middle;
+}
+
 .org-src-container ::-moz-selection {
     color: inherit;
 }

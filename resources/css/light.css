@@ -377,3 +377,11 @@ tbody tr:nth-child(even) {
     border-left: solid 1px;
     border-right: solid 1px;
 }
+
+.done {
+    color: #BBBBBB;
+}
+
+.todo {
+    color: #D8ABA7;
+}

@@ -345,3 +345,11 @@ tbody tr:nth-child(even) {
     /* (:foreground "#272822") */
     color: #373832;
 }
+.done {
+    color: #AFD8AF;
+}
+
+.todo {
+
+    color: #CC9393;
+}
