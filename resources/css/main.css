@@ -1,8 +1,8 @@
 body {
     font-family: 'Lora', 'serif';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 21px;
-    /* letter-spacing: -0.2px; */
+    line-height: 1.2em;
 }
 
 #wrapper {
@@ -90,12 +90,12 @@ table tr {
 }
 
 h1, h2, h3, h4, h5, h6, table {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1 {
     font-size: 1.7em;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 a {
@@ -105,7 +105,7 @@ a {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.5em;
 }
 
 ul, ol {
@@ -157,7 +157,7 @@ blockquote:before {
 
 blockquote p {
     display: inline;
-    line-height: 0.3;
+    line-height: 0.3em;
 }
 
 blockquote .author {
@@ -200,6 +200,10 @@ hr:before {
 .org-underline,
 .org-org-footnote {
     border-bottom: 1px solid;
+}
+
+.links a {
+    display: block;
 }
 
 .footdef > sup {
@@ -276,7 +280,7 @@ hr:before {
 }
 
 .post-date, .org-org-document-title, .site-nav {
-    font-family: 'Fira Sans';
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .not-found {
@@ -288,7 +292,7 @@ code {
 }
 
 .done, .todo {
-    font-weight: bold;
+    font-weight: 700;
     padding: 0px 3px;
     font-size: 0.7em;
     border: solid 1px;
@@ -314,7 +318,6 @@ code {
 .org-src-container {
     line-height: 1em;
 }
-
 
 @media screen {
     .org-src-container pre {
