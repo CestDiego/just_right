@@ -108,10 +108,6 @@ p {
     line-height: 1.5em;
 }
 
-ul, ol {
-    padding: 0;
-}
-
 figure {
     margin: 0;
 }
@@ -313,21 +309,9 @@ code {
 }
 
 ul, ol {
-    list-style: none;
-}
-
-li {
-    position: relative;
-}
-
-li::before {
-  content: '';
-  height: 6px;
-  width: 6px;
-  position: absolute;
-  left: -18px;
-  top: 9px;
-  border-radius: 3px;
+    padding: 0;
+    margin-left: 1em;
+    list-style-position: inside;
 }
 
 @media screen {
@@ -335,13 +319,6 @@ li::before {
         max-height: 500px;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
-    }
-}
-
-
-@media (max-width: 800px) {
-    ul, ol {
-        list-style-position: inside;
     }
 }
 
@@ -362,15 +339,6 @@ li::before {
 
     .done, .todo {
         top: -1px;
-    }
-
-    ul, ol {
-        list-style-position: inside;
-    }
-
-    li::before {
-        left: -17px;
-        top: 6px;
     }
 }
 
