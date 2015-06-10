@@ -135,11 +135,11 @@ th {
 }
 
 thead tr {
-  border-bottom: 1px solid;
+    border-bottom: 1px solid;
 }
 
 th, td {
-  padding: 0.3em 0px;
+    padding: 0.3em 0px;
 }
 
 blockquote {
@@ -147,12 +147,12 @@ blockquote {
 }
 
 blockquote:before {
-  display: block;
-  height: 0;
-  content: "“";
-  margin-left: -.75em;
-  font: italic 400%/1 "Source Code Pro";
-  color: #999;
+    display: block;
+    height: 0;
+    content: "“";
+    margin-left: -.75em;
+    font: italic 400%/1 "Source Code Pro";
+    color: #999;
 }
 
 blockquote p {
@@ -161,10 +161,10 @@ blockquote p {
 }
 
 blockquote .author {
-  display: block;
-  text-align: right;
-  font-style: italic;
-  color: #666;
+    display: block;
+    text-align: right;
+    font-style: italic;
+    color: #666;
 }
 
 hr {
