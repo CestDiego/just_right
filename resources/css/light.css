@@ -4,13 +4,13 @@ body {
 }
 
 ::-moz-selection {
-    background: #2d2d2d;
-    color: #e3e3e3;
+    background: #8ed3ff;
+    color: #373737;
 }
 
 ::selection {
-    background: #2d2d2d;
-    color: #e3e3e3;
+    background: #8ed3ff;
+    color: #373737;
 }
 
 thead tr {
