@@ -100,7 +100,7 @@ h1 {
 
 a {
     position: relative;
-    text-decoration: none;;
+    text-decoration: none;
     color: inherit;
 }
 
@@ -168,7 +168,7 @@ blockquote .author {
 }
 
 hr {
-    border: none;;
+    border: none;
     margin: 2.0em auto;
     text-align: center;
 }
@@ -221,7 +221,7 @@ hr:before {
 }
 
 .footnotes {
-    display: none;;
+    display: none;
 }
 
 #footnotes {
@@ -237,17 +237,9 @@ hr:before {
     margin: 0 0 2em;
 }
 
-.links {
-    list-style: none;;
-}
-
 .links > li {
     display: inline-block;
     margin-right: 1em;
-}
-
-.post-list {
-    list-style: none;;
 }
 
 .post-time {
@@ -384,7 +376,7 @@ li::before {
 
 @media print {
     .site-nav, .site-footer {
-        display: none;;
+        display: none;
     }
 
     pre {
