@@ -1,7 +1,7 @@
 body {
     font-family: 'Lora', 'serif';
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.2em;
 }
 
@@ -109,12 +109,7 @@ p {
 }
 
 ul, ol {
-    list-style-position: inside;
-    padding-left: 22px;
-}
-
-ul ul, ol ol, ul ol, ol ul {
-    padding-left: 22px;
+    padding: 0;
 }
 
 figure {
@@ -126,7 +121,7 @@ sub, sup {
 }
 
 figcaption {
-    font-size: 0.8em;
+    font-size: 1em;
     text-align: center;
 }
 
@@ -335,11 +330,7 @@ code {
 
 @media (max-width: 800px) {
     ul, ol {
-        padding-left: 11px;
-    }
-
-    ul ul, ol ol, ul ol, ol ul{
-        padding-left: 11px;
+        list-style-position: inside;
     }
 }
 
