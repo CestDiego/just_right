@@ -66,6 +66,13 @@ function scroll(from, to, duration) {
 }
 
 (function() {
+    window.MathJax = {
+        tex2jax: {
+            inlineMath: [["\\(","\\)"]],
+            displayMath: [['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}", "\\end{displaymath}"]]
+        }
+    };
+
     var lightTheme = document.querySelector("#lightTheme");
     var darkTheme = document.querySelector("#darkTheme");
 
