@@ -330,12 +330,12 @@ li {
 
 li::before {
   content: '';
-  background: #d3d4d2;
-  height: 10px;
-  width: 10px;
+  height: 6px;
+  width: 6px;
   position: absolute;
   left: -18px;
-  top: 5px;
+  top: 9px;
+  border-radius: 3px;
 }
 
 @media screen {
@@ -370,6 +370,15 @@ li::before {
 
     .done, .todo {
         top: -1px;
+    }
+
+    ul, ol {
+        list-style-position: inside;
+    }
+
+    li::before {
+        left: -17px;
+        top: 6px;
     }
 }
 

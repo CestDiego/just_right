@@ -25,6 +25,10 @@ tbody tr:nth-child(even) {
     background: #FFF;
 }
 
+li::before {
+    background: #373737;
+}
+
 .org-src-container ::-moz-selection {
     background: #8ed3ff;
 }
