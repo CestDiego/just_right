@@ -1,6 +1,4 @@
-
-* =just_right=
-
+#+TITLE:=just_right
 #+begin_quote
 Make it as simple as possiburu while looking aesthetically pleasing
 
