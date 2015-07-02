@@ -265,6 +265,11 @@ li {
     margin-left: 0;
 }
 
+
+.post-list > li {
+    margin: 1em 0;
+}
+
 .post-time {
     margin: 0 1em 0 0;
 }
