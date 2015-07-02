@@ -6,9 +6,9 @@ body {
 }
 
 #wrapper {
-    max-width: 705px;
+    max-width: 700px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 18px;
 }
 
 body,
@@ -207,6 +207,10 @@ hr:before {
     border-bottom: 1px solid;
 }
 
+.links {
+    margin-left: 0;
+}
+
 .links a {
     display: block;
 }
@@ -334,13 +338,7 @@ ul, ol {
 
 @media (max-width: 540px) {
     body {
-        font-size: 16px;
-    }
-
-    .org-src-container {
-        position: static;
-        left: 0px;
-        margin-right: 0px;
+        font-size: 14px;
     }
 
     .org-src-container pre {
