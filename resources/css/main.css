@@ -183,6 +183,10 @@ hr:before {
     letter-spacing: 1em;
 }
 
+li {
+    margin: 0.5em 0;
+}
+
 .switch-lights {
     position: relative;
     margin: 0;
@@ -248,7 +252,12 @@ hr:before {
 
 .links > li {
     display: inline-block;
-    margin-right: 1em;
+    margin: 0 1em 0 0;
+}
+
+.post-list {
+    list-style: none;
+    margin-left: 0;
 }
 
 .post-time {
@@ -274,6 +283,7 @@ hr:before {
 .post-date {
     display: block;
     font-size: 0.9em;
+    margin-top: 0.5em;
 }
 
 .site-nav {
