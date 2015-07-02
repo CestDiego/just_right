@@ -73,24 +73,6 @@ function scroll(from, to, duration) {
         }
     };
 
-    var lightTheme = document.querySelector("#lightTheme");
-    var darkTheme = document.querySelector("#darkTheme");
-
-    var toggleTheme = function () {
-        var isDefaultDisabled = lightTheme.disabled;
-        darkTheme.disabled = isDefaultDisabled;
-        lightTheme.disabled = !isDefaultDisabled;
-
-        var switchLights = document.querySelector(".switch-lights");
-        switchLights.textContent = "lights " + (isDefaultDisabled ? "off" : "on");
-
-        return !isDefaultDisabled;
-    };
-
-    if (localStorage.darkTheme === "1") {
-        toggleTheme();
-    }
-
     var viewportHeight = document.documentElement.clientHeight,
         documentHeight = document.body.clientHeight,
         backToTop;
@@ -101,13 +83,6 @@ function scroll(from, to, duration) {
     }
 
     window.addEventListener("load", function () {
-        document.querySelector(".switch-lights").addEventListener("click", function () {
-            localStorage.darkTheme = +toggleTheme();
-            setTimeout(function(){
-                if (typeof reload_disqus == 'function') { reload_disqus(); }
-            }, 400);
-        });
-
         Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (el) {
             el.addEventListener("click", function (event) {
                 if (!(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
@@ -129,9 +104,4 @@ function scroll(from, to, duration) {
         });
     });
 
-    document.addEventListener('keydown', function(event) {
-        if(event.keyCode == 222) {
-            document.querySelector(".switch-lights").click();
-        }
-    });
 }());

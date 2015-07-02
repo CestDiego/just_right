@@ -4,6 +4,39 @@
         <a href="#">back to top</a>
     </div>
 
+
+
+    <script>
+     var lightTheme = document.querySelector("#lightTheme");
+     var darkTheme = document.querySelector("#darkTheme");
+
+     var toggleTheme = function () {
+         var isDefaultDisabled = lightTheme.disabled;
+         darkTheme.disabled = isDefaultDisabled;
+         lightTheme.disabled = !isDefaultDisabled;
+
+         var switchLights = document.querySelector(".switch-lights");
+         switchLights.textContent = "lights " + (isDefaultDisabled ? "off" : "on");
+
+         return !isDefaultDisabled;
+     };
+
+     if (localStorage.darkTheme === "1") {
+         toggleTheme();
+     }
+     document.querySelector(".switch-lights").addEventListener("click", function () {
+         localStorage.darkTheme = +toggleTheme();
+         setTimeout(function(){
+             if (typeof reload_disqus == 'function') { reload_disqus(); }
+         }, 400);
+     });
+
+     document.addEventListener('keydown', function(event) {
+         if(event.keyCode == 222) {
+             document.querySelector(".switch-lights").click();
+         }
+     });
+    </script>
     <script src="/media/js/main.js"></script>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     {{#google-analytics}}
