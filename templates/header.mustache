@@ -11,9 +11,41 @@
     {{/keywords}}
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic,700italic|Lora:400,700|Source+Code+Pro:400,700">
     <link rel="stylesheet" href="/media/css/normalize.css">
-    <link rel="stylesheet" href="/media/css/main.css">
     <link rel="stylesheet" href="/media/css/dark.css" id="darkTheme">
     <link rel="stylesheet" href="/media/css/light.css" id="lightTheme">
+    <script>
+     var lightTheme = document.querySelector("#lightTheme");
+     var darkTheme = document.querySelector("#darkTheme");
+
+     var toggleTheme = function () {
+         var isDefaultDisabled = lightTheme.disabled;
+         darkTheme.disabled = isDefaultDisabled;
+         lightTheme.disabled = !isDefaultDisabled;
+
+         var switchLights = document.querySelector(".switch-lights");
+         switchLights.textContent = "lights " + (isDefaultDisabled ? "off" : "on");
+
+         return !isDefaultDisabled;
+     };
+
+     if (localStorage.darkTheme === "1") {
+         toggleTheme();
+     }
+
+     document.querySelector(".switch-lights").addEventListener("click", function () {
+         localStorage.darkTheme = +toggleTheme();
+         setTimeout(function(){
+             if (typeof reload_disqus == 'function') { reload_disqus(); }
+         }, 400);
+     });
+
+     document.addEventListener('keydown', function(event) {
+         if(event.keyCode == 222) {
+             document.querySelector(".switch-lights").click();
+         }
+     });
+    </script>
+    <link rel="stylesheet" href="/media/css/main.css">
     <noscript>
         <style>
          .toggle-colors{
