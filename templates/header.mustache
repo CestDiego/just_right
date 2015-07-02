@@ -31,19 +31,6 @@
      if (localStorage.darkTheme === "1") {
          toggleTheme();
      }
-
-     document.querySelector(".switch-lights").addEventListener("click", function () {
-         localStorage.darkTheme = +toggleTheme();
-         setTimeout(function(){
-             if (typeof reload_disqus == 'function') { reload_disqus(); }
-         }, 400);
-     });
-
-     document.addEventListener('keydown', function(event) {
-         if(event.keyCode == 222) {
-             document.querySelector(".switch-lights").click();
-         }
-     });
     </script>
     <link rel="stylesheet" href="/media/css/main.css">
     <noscript>

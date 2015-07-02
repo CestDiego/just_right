@@ -83,6 +83,19 @@ function scroll(from, to, duration) {
     }
 
     window.addEventListener("load", function () {
+        document.querySelector(".switch-lights").addEventListener("click", function () {
+            localStorage.darkTheme = +toggleTheme();
+            setTimeout(function(){
+                if (typeof reload_disqus == 'function') { reload_disqus(); }
+            }, 400);
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if(event.keyCode == 222) {
+                document.querySelector(".switch-lights").click();
+            }
+        });
+
         Array.prototype.forEach.call(document.querySelectorAll('a[href^="#"]'), function (el) {
             el.addEventListener("click", function (event) {
                 if (!(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') &&
