@@ -289,8 +289,10 @@ code {
 }
 
 .done, .todo {
+    line-height: 1em;
+    display: inline-block;
     font-weight: 700;
-    padding: 0px 3px;
+    padding: 4px 3px 2px;
     font-size: 0.7em;
     border: solid 1px;
     position: relative;
