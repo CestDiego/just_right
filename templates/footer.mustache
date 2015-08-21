@@ -2,6 +2,7 @@
 
     <div class="back-to-top">
         <a href="#">back to top</a>
+        <a id="show-comments"  onclick="loadDisqus()"> show comments</a>
     </div>
 
 
@@ -33,19 +34,15 @@
              var ds_loaded = false;
              var le_top = document.getElementById("disqus_thread").offsetTop;
 
-             function check(){
-                 if ( !ds_loaded && window.scrollY + document.documentElement.clientHeight >= le_top ) {
-                     ds_loaded = true;
-                     (function() {
-                         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                     })();
-                 }
+             function loadDisqus(){
+                 ds_loaded = true;
+                 (function() {
+                     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                 })();
+                 document.getElementById("show-comments").style.visibility = "hidden"
              }
-
-             window.onscroll = check;
-             check();
 
              var reload_disqus = function(){
                  DISQUS.reset({
